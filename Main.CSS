@@ -1,0 +1,102 @@
+.navbar {
+    height: 9vh; /* Reduced height for the header */
+    background-color: black;
+}
+.navbar-brand {
+    padding-left: 70px; /* Adjust the padding as needed */
+}
+/* color chaning */
+.navbar-nav .nav-link {
+    color: white; /* Set default text color to white */
+    transition: box-shadow 0.3s ease;
+    padding-left: 100px
+}
+
+.navbar-nav .nav-link:hover {
+    color: blue !important; /* Change text color to white on hover */
+}
+/* color chaning */
+
+.custom-btn {
+    height: auto; /* Set height to auto to adjust based on content */
+    padding: 2px 35px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 0px
+}
+.custom-btnA {
+        height: auto; /* Set height to auto to adjust based on content */
+        padding: 2px 35px; /* Adjust padding as needed */
+        font-size: 14px; /* Adjust font size as needed */
+        margin: 0px
+}
+
+.custom-btnB {
+    height: auto; /* Set height to auto to adjust based on content */
+    padding: 2px 35px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 0px;
+    color: black;
+    background-color: orange;
+    border-color: orange;
+}
+.custom-btnBB {
+    height: auto; /* Set height to auto to adjust based on content */
+    padding: 2px 35px; /* Adjust padding as needed */
+    font-size: 14px; /* Adjust font size as needed */
+    margin: 70px;
+    color: black;
+    background-color: orange;
+    border-color: orange;
+}
+.main{
+    height: 43vh;
+    background-color: black;
+}
+.middle{
+    height: 43vh; /* Adjusted height for the main content */
+    background-color: black;
+}
+
+.footer {
+    height: 5vh; /* Reduced height for the footer */
+    background-color: black;
+}
+
+.overlay-text {
+    position: absolute; /* Position the text and button relative to the container */
+    top: 39%; /* Position vertically centered */
+    left: 37.8%; /* Position horizontally centered */
+    transform: translate(-50%, -50%); /* Center the text and button */
+    color: white; /* Text color */
+    font-size: 20px;
+}
+/* for footer */
+.text-rainbow-animation {
+    font-family:arial black;
+    padding-left: 70px;
+    font-size:14px;
+    background-image:
+      linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet, red);
+    -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 35s linear infinite;
+  }
+
+  @keyframes rainbow-animation {
+      to {
+          background-position: 4500vh;
+      }
+  }
+
+.carousel-inner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-inner .container h1,
+.carousel-inner .container p,
+.carousel-inner .container a {
+    margin: 10px 0;
+}
